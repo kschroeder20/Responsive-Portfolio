@@ -167,52 +167,18 @@ footer{
 .content,
 .container,
 body,
-div,
-.head,
-#my-pic,
 footer,
-#logo{
+header
+{
 		width: 100%;
 		height: auto;
 	}
 
-header li,
-header nav{
-	width: 100%;
-	height: auto;
-	margin: 0px;
-	padding: 0px;
-	float: none;
-	text-align: center;
-}
 
-h2,
-header nav{
-	text-align: center;
-}
-
-header nav,
-header ul,
-header li,
-#name{
-	width: 100%;
-	float: none;
-	padding: 5px;
-	margin: 0;
-	text-align: center;
-}
-
-header #logo{
-	width: 100%;
-	height: 50px;
-	float: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right:0px;
-	padding-left: 0px;
-	margin: 0;
-	text-align: center;
-}
+.user-input input{
+	outline: .5px solid #cccccc;
+	margin: 1px;
+} 
 
 }
 
@@ -228,6 +194,10 @@ footer,
 		width: 100%;
 		height: auto;
 	}
+
+header{
+	position: static;
+}
 
 header li,
 header nav{
@@ -280,7 +250,5 @@ header #logo{
 	outline: .5px solid #cccccc;
 	margin: 1px;
 } 
-
-
 
 }
